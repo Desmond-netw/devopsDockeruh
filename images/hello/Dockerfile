@@ -12,3 +12,6 @@ COPY hello.sh .
 
 # When running docker run the command will be ./hello.sh
 CMD ./hello.sh
+
+# Run the command to find the total number of files.
+CMD ./find.sh
